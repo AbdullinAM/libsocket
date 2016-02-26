@@ -31,7 +31,7 @@ unixserverdgram.cpp
 #../C/unix/libunixsocket.c
 #)
 
-ADD_LIBRARY(socket++ MODULE ${sources})
+ADD_LIBRARY(socket++ SHARED ${sources})
 
 TARGET_LINK_LIBRARIES(socket++ socket_int)
 
