@@ -7,3 +7,6 @@ srv
 *.a
 *.kdev4
 headers/conf.h
+*.cmake
+CMakeFiles/
+Makefile
